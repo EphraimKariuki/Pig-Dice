@@ -3,23 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Ping pong</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css" type = "text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type = "text/css">
     <script type="text/javascript" src= "js/script.js"></script>
     <script type="text/javascript" src ="jquery-3.3.1.min.js"></script>
   </head>
   <body>
     <div class="card">
-      <button type="button" name="button" id="rules">Rules</button>
-      <button type="button" name="button" id= "game">New Game</button>
+    <label for="" id= "lblRules">Rules</label>
+    <div class="rules">
+      <p>These are the rules of the game</p>
+      <ol>
+        <li>if the player rolls a 1, they score nothing <br>and the other palyer is to play</li>
+        <li>if a play rolls any other number it is added to their turn total<br> and player's turn continues</li>
+        <li>if a player chooses to "hold" the turn total is added to their score<br> and it becomes the next players turn</li>
+        <li>the game ends when either of the party score 100 <br>and the player becomes the Winner</li>
+      </ol>
+    </div>
+    <label for="" id= "lblGame">New Game</label>
       <div class="row">
         <div class="col-md-6" class= "player1">
-          <h3 id= "name1"></h3>
-          <label id="turnTotal1"></label>
+          <h2 id= "name1"></h2> <br>
+          <label id="turnTotal1">Player1</label><br>
+          <label for="" id= "lblTurnTotal1"></label><br>
+          <label for="" id= "lblScore1">Score</label><br>
         </div>
         <div class="col-md-6" class= "player2">
-          <h3 id= "name2"></h3>
-          <label id= "turnTotal2"></label>
+          <h2 id= "name2"></h2><br>
+          <label id= "turnTotal2">player2</label><br>
+          <label for="" id= "lblTurnTotal1"></label><br>
+          <label for="" id= "lblScore1">Score</label><br>
         </div>
       </div>
       <button type="button" name="button" id= "btnRoll">Roll Dice</button>
