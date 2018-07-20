@@ -17,4 +17,6 @@ function Game(){
     return alert("Enter a number");
   }
 $(document).ready(function(){
+  //User Interface Logic
+
 });
