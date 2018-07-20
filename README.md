@@ -13,5 +13,6 @@ Each turn, a player repeatedly rolls a die until either a 1 is rolled or the pla
         The first player to score 100 or more points wins.
 ## Project Setup Instructions
 ## Link to a live site
-## copyright and license information
 
+ [Ping Pong](https://ephraimkariuki.github.io/Pig-Dice/)
+## copyright and license information
