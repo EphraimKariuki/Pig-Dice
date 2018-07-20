@@ -1,6 +1,6 @@
 # PIG DICE
 
-Pig dice a game commonly used by mathematics teachers to teach probability concepts.
+Pig dice is a game commonly used by mathematics teachers to teach probability concepts.
 ## Author
 ### Ephraim K. Kariuki
 ## Description
