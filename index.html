@@ -3,15 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Ping pong</title>
-    <link rel="stylesheet" href="css/styles.css" type = "text/css">
+
     <link rel="stylesheet" href="css/bootstrap.css" type = "text/css">
+     <link rel="stylesheet" href="css/styles.css" type = "text/css">
+     <script type="text/javascript" src ="jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src= "js/script.js"></script>
-    <script type="text/javascript" src ="jquery-3.3.1.min.js"></script>
   </head>
   <body>
     <div class="card">
     <label for="" id= "lblRules">Rules</label>
-    <div class="rules">
+    <div id="rules">
       <p>These are the rules of the game</p>
       <ol>
         <li>if the player rolls a 1, they score nothing <br>and the other palyer is to play</li>
@@ -21,7 +22,7 @@
       </ol>
     </div>
     <label for="" id= "lblGame">New Game</label>
-    <form class="newGame">
+    <form id="newGame">
       player One: <br>
       <input type="text" name="" value="" id= "inptPlayer1"><br>
       player Two: <br>

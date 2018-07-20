@@ -1,6 +1,6 @@
-.rules {
-  display: disabled;
+#rules {
+  display: none;
 }
-.newGame {
-  display: disabled;
+#newGame {
+  display: none;
 }
