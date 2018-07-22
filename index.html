@@ -3,15 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Ping pong</title>
-
-    <link rel="stylesheet" href="css/bootstrap.css" type = "text/css">
-     <link rel="stylesheet" href="css/styles.css" type = "text/css">
-     <script type="text/javascript" src ="jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src= "js/script.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type = "text/css">
+     <link href="css/styles.css" rel="stylesheet" type = "text/css">
+     <script  src ="jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src= "js/script.js" type="text/javascript"></script>
   </head>
   <body>
-    <div class="card">
-    <label for="" id= "lblRules">Rules</label>
+    <div class="card" id= "board">
+    <button type="button" class="btn btn-danger" id= "btnGame">Rules</button>
     <div id="rules">
       <p>These are the rules of the game</p>
       <ol>
@@ -21,7 +20,7 @@
         <li>the game ends when either of the party score 100 <br>and the player becomes the Winner</li>
       </ol>
     </div>
-    <label for="" id= "lblGame">New Game</label>
+    <button type="button" class="btn btn-success">New Game</button>
     <form id="newGame">
       player One: <br>
       <input type="text" name="" value="" id= "inptPlayer1"><br>
@@ -45,8 +44,8 @@
           <label for="" id= "lblScore1">Score</label><br>
         </div>
       </div>
-      <button type="button" name="button" id= "btnRoll">Roll Dice</button>
-      <button type="button" name="button" id= "btnHold">Hold</button>
+      <button type="button" name="button" class="btn btn-primary"id= "btnRoll">Roll Dice</button>
+      <button type="button" name="button" class="btn btn-warning" id= "btnHold">Hold</button>
     </div>
   </body>
 </html>

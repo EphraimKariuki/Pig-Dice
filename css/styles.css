@@ -4,3 +4,6 @@
 #newGame {
   display: none;
 }
+#board{
+  background-image: url("../images/diceCard.jpg");
+}
